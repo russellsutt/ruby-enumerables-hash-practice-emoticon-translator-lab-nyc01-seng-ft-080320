@@ -6,8 +6,9 @@ def load_library(file_path)
   
   yamfile.each_with_object({}) do |(key, emoticons), new_hash|
     if new_hash[key].include?(english)
-      new_hash[key][english] = {}
-    else new_hash[key][japanese]
+      new_hash[key] = [english]
+    else new_hash[key] = [japanese]
+    end
     emoticons.each do |emoticon|
       if new_hashkey[emotico][0]
         new_hash[key][english][emoticon] = {}
