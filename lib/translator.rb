@@ -9,8 +9,8 @@ def load_library(file_path)
       new_hash[key] = {}
     end
     new_hash[key][:english] = emoticons.first
-    emoticons.each do |emoticon|
-      
+    new_hash[key][:japanese] = emoticons.last
+    binding.pry
   end
 end
 
