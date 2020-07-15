@@ -17,7 +17,7 @@ def get_english_meaning(file_path, jemoticon)
   library = load_library(file_path)
   
   library.each do |meaning, language|
-    language.each do |emoticon2|
+    language.each do |emoticon|
       if library[meaning] =
    end
   end
