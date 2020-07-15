@@ -21,7 +21,8 @@ def get_english_meaning(file_path, emoticon)
     if emoticon == library[meaning][:japanese]
       english meaning = meaning
     end
-   end
+  end
+  return english_meaning
 end
 
 def get_japanese_emoticon(file_path)
