@@ -21,6 +21,7 @@ def get_english_meaning(file_path, jemoticon)
       if emoticon == jemoticon
         return meaning
       end
+      binding.pry
    end
   end
 end
