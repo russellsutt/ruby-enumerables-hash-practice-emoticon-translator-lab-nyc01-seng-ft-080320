@@ -4,8 +4,8 @@ require 'yaml'
 def load_library(file_path)
   yamfile = YAML.load_file(file_path)
   
-  yamfile.each do |key, (value1, value2)|
-
+  yamfile.each do |(key, value1, value2), new_hash|
+  bining.pry
   end
 end
 
