@@ -7,6 +7,7 @@ def load_library(file_path)
   yamfile.each_with_object({}) do |(key, emoticons), new_hash|
     if !new_hash.include?(key)
       new_hash[key] = {}
+    end
     emoticons.each do |emoticon|
       if 
   binding.pry
