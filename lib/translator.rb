@@ -6,8 +6,6 @@ def load_library(file_path)
   
   new_library = {}
   yamfile.each do |key, (value1, value2)|
-    library[key][english] = value1
-    library[key][japanese] = value2
   end
 end
 
