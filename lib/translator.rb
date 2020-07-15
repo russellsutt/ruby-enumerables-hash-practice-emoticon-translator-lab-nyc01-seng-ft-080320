@@ -4,10 +4,7 @@ require 'yaml'
 def load_library(file_path)
   yaml_file = YAML.load_file(file_path)
   yaml_file.each do |key, (value1, value2)|
-    binding.pry
-    if 
-    
-  # binding.pry
+  binding.pry
 end
 
 def get_japanese_emoticon(file_path)
