@@ -2,8 +2,9 @@ require 'pry'
 require 'yaml'
 
 def load_library(file_path)
-  hash = YAML.load_file(file_path)
-  hash.each do |key, value|
+  yaml_file = YAML.load_file(file_path)
+  yaml_file.each do |key, (value1, value2)|
+    binding.pry
     if 
     
   # binding.pry
