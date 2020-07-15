@@ -2,7 +2,6 @@ require 'pry'
 require 'yaml'
 
 def load_library(file_path)
-  hash = {}
   hash = YAML.load_file(file_path)
 end
 
