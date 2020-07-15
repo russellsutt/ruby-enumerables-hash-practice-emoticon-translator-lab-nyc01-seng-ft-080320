@@ -13,12 +13,12 @@ def load_library(file_path)
   end
 end
 
-def get_english_meaning(file_path, jemoticon)
+def get_english_meaning(file_path, emoticon)
   library = load_library(file_path)
   english_meaning = ""
   
   library.each do |meaning, language|
-    if jemoticon == library[meaning][:japanese]
+    if emoticon == library[meaning][:japanese]
       english meaning = meaning
     end
    end
