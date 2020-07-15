@@ -4,7 +4,7 @@ require 'yaml'
 def load_library(file_path)
   library = YAML.load_file(file_path)
   library.each_with_object({}) do |key, value|
-    
+  end
 end
 
 def get_japanese_emoticon
