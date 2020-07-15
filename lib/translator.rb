@@ -4,7 +4,10 @@ require 'yaml'
 def load_library(file_path)
   yamfile = YAML.load_file(file_path)
   
-  yamfile.each_with_object({}) do |(key, emoticonE, emoticonJ), new_hash|
+  yamfile.each_with_object({}) do |(key, emoticons), new_hash|
+    emoticons.each do |emoticon|
+      if emoticon[0]
+        new_hash[english][emoticon]
     
   binding.pry
   end
