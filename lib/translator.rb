@@ -3,7 +3,8 @@ require 'yaml'
 
 def load_library(file_path)
   hash = YAML.load_file(file_path)
-  hash.each do |emote|
+  hash.each do |key, value|
+    if 
     
   # binding.pry
 end
