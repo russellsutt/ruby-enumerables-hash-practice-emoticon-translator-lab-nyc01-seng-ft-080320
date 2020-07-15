@@ -19,7 +19,7 @@ def get_english_meaning(file_path, emoticon)
   
   library.each do |meaning, language|
     if emoticon == library[meaning][:japanese]
-      english meaning = meaning
+      english_meaning = meaning
     end
   end
   return english_meaning
