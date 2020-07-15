@@ -9,9 +9,6 @@ def load_library(file_path)
       new_hash[key] = {}
       binding.pry
     end
-    emoticons.each do |emoticon|
-      if 
-
   end
 end
 
