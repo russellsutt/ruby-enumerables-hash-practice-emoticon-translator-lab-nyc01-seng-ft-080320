@@ -8,13 +8,14 @@ def load_library(file_path)
     if new_hash[key].include?(english)
       new_hash[key] = [english]
     else new_hash[key] = [japanese]
+    binding.pry
     end
     emoticons.each do |emoticon|
       if new_hashkey[emotico][0]
         new_hash[key][english][emoticon] = {}
       else
         new_hash[key][japanese][emoticon] = {}
-      binding.pry
+
       end
 
   end
