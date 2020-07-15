@@ -6,9 +6,8 @@ def load_library(file_path)
   yaml_file.each do |key, (value1, value2)|
     yaml_file[key][english] = value1
     yaml_file[key][japanese] = value2
-    
   binding.pry
-end
+  end
 end
 
 def get_japanese_emoticon(file_path)
