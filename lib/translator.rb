@@ -7,7 +7,9 @@ def load_library(file_path)
   yamfile.each_with_object({}) do |(key, emoticons), new_hash|
     emoticons.each do |emoticon|
       if emoticon[0]
-        new_hash[english][emoticon]
+        new_hash[english][emoticon] = {}
+      else
+        new_hash[japanese][emoticon] = {}
     
   binding.pry
   end
