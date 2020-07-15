@@ -18,7 +18,7 @@ def get_english_meaning(file_path, jemoticon)
   english_meaning = ""
   
   library.each do |meaning, language|
-    if 
+    if meaning
       end
    end
   end
