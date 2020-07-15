@@ -11,13 +11,11 @@ def load_library(file_path)
     binding.pry
     end
     emoticons.each do |emoticon|
-      if new_hashkey[emotico][0]
+      if new_hashkey[emoticon][0]
         new_hash[key][english][emoticon] = {}
       else
         new_hash[key][japanese][emoticon] = {}
-
       end
-
   end
 end
 
