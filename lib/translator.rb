@@ -22,7 +22,7 @@ def get_english_meaning(file_path, jemoticon)
       english meaning = meaning
     end
    end
-  return english_meaning
+return english_meaning
 end
 
 def get_japanese_emoticon(file_path)
