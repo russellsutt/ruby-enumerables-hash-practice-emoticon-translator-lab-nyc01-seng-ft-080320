@@ -24,6 +24,7 @@ def get_english_meaning(file_path, jemoticon)
       end
    end
   end
+  binding.pry
 end
 
 def get_japanese_emoticon(file_path)
