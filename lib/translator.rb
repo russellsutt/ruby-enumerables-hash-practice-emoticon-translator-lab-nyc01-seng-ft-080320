@@ -10,6 +10,7 @@ def load_library(file_path)
         new_hash[english][emoticon] = {}
       else
         new_hash[japanese][emoticon] = {}
+      end
     
   binding.pry
   end
