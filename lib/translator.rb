@@ -5,6 +5,8 @@ def load_library(file_path)
   yamfile = YAML.load_file(file_path)
   
   yamfile.each_with_object({}) do |(key, emoticons), new_hash|
+    emoticons.each do |emoticon|
+      if 
   binding.pry
   end
 end
