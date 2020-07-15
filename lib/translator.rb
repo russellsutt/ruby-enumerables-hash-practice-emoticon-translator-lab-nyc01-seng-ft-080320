@@ -4,7 +4,7 @@ require 'yaml'
 def load_library(file_path)
   yaml_file = YAML.load_file(file_path)
   yaml_file.each do |key, (value1, value2)|
-    
+    yaml_file
     
   binding.pry
 end
