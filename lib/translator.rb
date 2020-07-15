@@ -13,9 +13,14 @@ def load_library(file_path)
   end
 end
 
-def get_english_meaning(file_path, emoticon)
-  load_library(file_path)
+def get_english_meaning(file_path, jemoticon)
+  library = load_library(file_path)
   
+  library.each do |meaning, language|
+    language.each do |emoticon2|
+      binding.pry
+   end
+  end
 end
 
 def get_japanese_emoticon(file_path)
