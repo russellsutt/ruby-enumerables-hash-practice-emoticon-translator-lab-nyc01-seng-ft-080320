@@ -8,7 +8,7 @@ def load_library(file_path)
     if !new_hash.include?(key)
       new_hash[key] = {}
     end
-    new_hash[ke]
+    new_hash[key][:english]
     emoticons.each do |emoticon|
       
   end
